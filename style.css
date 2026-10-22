@@ -1,49 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
-  max-width: 900px;
-  margin: 60px auto;
+  max-width: 1040px;
+  margin: 48px auto;
   padding: 0 24px;
-  line-height: 1.6;
+  line-height: 1.7;
+  color: #29343d;
+  background-color: #f5f6f7;
+}
+
+.profile-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 36px;
+  background-color: #ffffff;
+  border: 1px solid #dce1e5;
+  border-radius: 8px;
+}
+
+.profile-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.profile-card h1 {
+  margin: 0 0 12px;
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 600;
   color: #243746;
-  background-color: #f7fafc;
 }
 
-h1 {
+.profile-title {
+  margin: 0 0 20px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #52616c;
+}
+
+.profile-description {
+  margin: 0 0 24px;
+  font-size: 16px;
+}
+
+.profile-photo {
+  display: block;
+  flex-shrink: 0;
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.profile-links a {
+  padding: 6px 10px;
+  border: 1px solid #dce1e5;
+  border-radius: 4px;
+  font-size: 14px;
   color: #145374;
+  text-decoration: none;
+  overflow-wrap: anywhere;
 }
 
-h2 {
-  font-weight: normal;
+.profile-links a:hover,
+.profile-links a:focus-visible {
+  background-color: #eef4f7;
+  border-color: #145374;
+  text-decoration: underline;
 }
 
-header {
-  padding-bottom: 30px;
-  border-bottom: 1px solid #ccdbe3;
-}
-
-header h1 {
-  margin-bottom: 5px;
-}
-
-header p {
-  margin-top: 0;
-  font-size: 20px;
-}
-
-nav {
+.site-nav {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  margin-top: 25px;
+  margin-top: 28px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #dce1e5;
 }
 
-nav a {
+.site-nav a {
   color: #145374;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
 }
 
-nav a:hover {
+.site-nav a:hover,
+.site-nav a:focus-visible {
   text-decoration: underline;
 }
 
@@ -52,15 +104,19 @@ section {
 }
 
 section h2 {
-  color: #145374;
   margin-top: 0;
+  color: #243746;
+  font-weight: 500;
 }
 
-.profile-photo {
-  display: block;
-  width: 200px;
-  max-width: 100%;
-  height: auto;
-  border-radius: 6px;
-  margin-bottom: 24px;
+@media (max-width: 700px) {
+  .profile-card {
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px;
+  }
+
+  .profile-card h1 {
+    font-size: 28px;
+  }
 }
