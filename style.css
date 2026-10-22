@@ -120,3 +120,9 @@ section h2 {
     font-size: 28px;
   }
 }
+
+.site-nav a[aria-current="page"] {
+  color: #243746;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
