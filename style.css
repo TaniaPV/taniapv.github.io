@@ -126,3 +126,35 @@ section h2 {
   text-decoration: underline;
   text-underline-offset: 6px;
 }
+
+.page-index {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 20px;
+  margin-top: 18px;
+  padding: 14px 18px;
+  background-color: #ffffff;
+  border: 1px solid #dce1e5;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.page-index span {
+  color: #52616c;
+  font-weight: 600;
+}
+
+.page-index a {
+  color: #145374;
+  text-decoration: none;
+}
+
+.page-index a:hover,
+.page-index a:focus-visible {
+  text-decoration: underline;
+}
+
+section[id] {
+  scroll-margin-top: 24px;
+}
