@@ -15,3 +15,43 @@ h1 {
 h2 {
   font-weight: normal;
 }
+
+header {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ccdbe3;
+}
+
+header h1 {
+  margin-bottom: 5px;
+}
+
+header p {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 25px;
+}
+
+nav a {
+  color: #145374;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 30px 0;
+}
+
+section h2 {
+  color: #145374;
+  margin-top: 0;
+}
