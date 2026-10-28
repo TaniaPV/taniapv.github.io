@@ -193,13 +193,15 @@ section[id] {
   color: #145374;
 }
 
-#education h3 {
+#education h3,
+#employment h3 {
   font-size: 16px;
   margin-top: 16px;
   margin-bottom: 2px;
 }
 
-#education p {
+#education p,
+#employment p {
   font-size: 14px;
   line-height: 1.5;
   margin-top: 0;
