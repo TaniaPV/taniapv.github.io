@@ -193,32 +193,18 @@ section[id] {
   color: #145374;
 }
 
-#education h3,
-#employment h3 {
+
+.section-card h3 {
   font-size: 16px;
   margin-top: 16px;
   margin-bottom: 2px;
 }
 
-#education p,
-#employment p {
+.section-card p {
   font-size: 14px;
   line-height: 1.5;
   margin-top: 0;
   margin-bottom: 0;
-}
-
-.section-card {
-  margin-top: 24px;
-  padding: 24px;
-  background-color: #ffffff;
-  border: 1px solid #dce1e5;
-  border-radius: 8px;
-}
-
-.section-card h2 {
-  margin-top: 0;
-  margin-bottom: 16px;
 }
 
 @media (max-width: 600px) {
