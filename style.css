@@ -212,3 +212,22 @@ section[id] {
     padding: 18px;
   }
 }
+
+.section-card {
+  margin-top: 24px;
+  padding: 24px;
+  background-color: #ffffff;
+  border: 1px solid #dce1e5;
+  border-radius: 8px;
+}
+
+.section-card h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 600px) {
+  .section-card {
+    padding: 18px;
+  }
+}
