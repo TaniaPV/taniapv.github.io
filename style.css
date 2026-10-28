@@ -192,3 +192,15 @@ section[id] {
 .site-footer a {
   color: #145374;
 }
+
+#education h3 {
+  font-size: 17px;
+  margin-top: 24px;
+  margin-bottom: 4px;
+}
+
+#education p {
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
