@@ -194,13 +194,14 @@ section[id] {
 }
 
 #education h3 {
-  font-size: 17px;
-  margin-top: 24px;
-  margin-bottom: 4px;
+  font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 2px;
 }
 
 #education p {
-  font-size: 15px;
+  font-size: 14px;
+  line-height: 1.5;
   margin-top: 0;
   margin-bottom: 0;
 }
