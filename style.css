@@ -226,6 +226,45 @@ section[id] {
   margin-bottom: 16px;
 }
 
+/* Colores y borde superior de todas las tarjetas */
+.section-card,
+.profile-card {
+  border: 1px solid #c2cfdd;
+  border-top: 5px solid #173858;
+  border-radius: 8px;
+}
+
+/* Tarjetas de los apartados */
+.section-card {
+  background-color: #c5dcf8;
+}
+
+/* Tarjeta de presentación con fotografía */
+.profile-card {
+  background-color: #4d83b8;
+  color: #ffffff;
+}
+
+.profile-card h1,
+.profile-card .profile-title,
+.profile-card .profile-description {
+  color: #ffffff;
+}
+
+/* Enlaces de contacto sobre el fondo azul */
+.profile-card .profile-links a {
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: transparent;
+}
+
+.profile-card .profile-links a:hover,
+.profile-card .profile-links a:focus-visible {
+  color: #173858;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
 @media (max-width: 600px) {
   .section-card {
     padding: 18px;
