@@ -270,3 +270,22 @@ section[id] {
     padding: 18px;
   }
 }
+
+.profile-card,
+.profile-card h1,
+.profile-card .profile-title,
+.profile-card .profile-description {
+  color: #081827;
+}
+
+.profile-card .profile-links a {
+  color: #081827;
+  border-color: #081827;
+}
+
+.profile-card .profile-links a:hover,
+.profile-card .profile-links a:focus-visible {
+  color: #081827;
+  background-color: #ffffff;
+  border-color: #081827;
+}
